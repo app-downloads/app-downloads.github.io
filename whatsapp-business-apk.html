@@ -3,191 +3,459 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhatsApp Business APK Download - Official Latest Version for Android</title>
-    <meta name="description" content="Download the official WhatsApp Business APK for Android. Access features like Business Profile, Catalogs, Quick Replies, and automated messaging to manage customer communications.">
-    <meta name="keywords" content="WhatsApp Business APK, WhatsApp Business download, com.whatsapp.w4b, business communication app, free apk download">
+    <title>WhatsApp Business APK Download - Free Latest Version for Android | Apps Download</title>
+    <meta name="description" content="Download the official and latest version of WhatsApp Business APK, the free app with built-in tools to help small businesses communicate with customers effectively and professionally.">
+    <meta name="keywords" content="whatsapp business download, whatsapp business apk, business communication, small business app, android apps, meta, business profile, catalog, quick replies">
     <meta name="author" content="Apps Download">
-    <link rel="canonical" href="https://app-downloads.github.io/whatsapp-business-apk.html">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://app-downloads.github.io/whatsapp-business-apk">
     
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; color: #333; }
-        .header, .footer { background-color: #128c7e; color: white; padding: 15px 0; text-align: center; }
-        .header a { color: white; text-decoration: none; font-weight: bold; font-size: 1.2em; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
-        .hero-section { background-color: #dcf8c6; padding: 40px 0; text-align: center; margin-bottom: 30px; }
-        .hero-section h1 { color: #128c7e; margin-top: 0; font-size: 2.5em; }
-        .main-content { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px; padding: 0 0 30px 0; }
-        .content-area { flex: 3; min-width: 300px; }
-        .sidebar { flex: 1; min-width: 250px; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .card { background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 30px; }
-        
-        /* Download Button Styling */
-        .download-btn { display: inline-block; background-color: #25d366; color: white; padding: 15px 30px; font-size: 1.2em; font-weight: bold; text-decoration: none; border-radius: 50px; margin: 20px 0; transition: background-color 0.3s; width: 100%; box-sizing: border-box; text-align: center; }
-        .download-btn:hover { background-color: #128c7e; }
-        
-        /* App Details Table Styling */
-        .app-details table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-        .app-details th, .app-details td { padding: 10px; border-bottom: 1px solid #eee; text-align: left; }
-        .app-details th { background-color: #f9f9f9; width: 40%; font-weight: 600; color: #128c7e; }
-        
-        /* Categories Section Styling */
-        .categories-section h2 { color: #128c7e; border-bottom: 2px solid #dcf8c6; padding-bottom: 10px; margin-bottom: 20px; }
-        .categories-list { list-style: none; padding: 0; }
-        .categories-list li { margin-bottom: 10px; }
-        .categories-list a { color: #128c7e; text-decoration: none; font-weight: 500; transition: color 0.3s; }
-        .categories-list a:hover { color: #25d366; text-decoration: underline; }
-        
-        /* Animation & Accordion (from original file's JS logic) */
-        .fade-in { opacity: 0; transition: opacity 0.5s ease-in; }
-        .fade-in.visible { opacity: 1; }
-        .accordion-btn { background: #eee; color: #333; cursor: pointer; padding: 12px; width: 100%; text-align: left; border: none; outline: none; transition: 0.4s; font-size: 1em; border-radius: 4px; margin-top: 5px; display: flex; justify-content: space-between; align-items: center; }
-        .accordion-content { padding: 0 18px; background-color: white; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out; }
-        .accordion-content.open { max-height: 500px; /* Sufficiently large value */ padding-top: 10px; padding-bottom: 10px; border: 1px solid #ddd; border-top: none; }
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Apps Download">
+    <meta property="og:title" content="WhatsApp Business APK Download - The Official Business Tool">
+    <meta property="og:description" content="Manage customer communications, showcase products, and automate messages with the essential WhatsApp Business app.">
+    <meta property="og:url" content="https://app-downloads.github.io/whatsapp-business-apk">
+    <meta property="og:image" content="/og-image.jpg"> 
 
-        @media (max-width: 768px) {
-            .main-content { flex-direction: column; }
+    <style>
+        /* General Reset and Base Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Layout Containers */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .main-content {
+            display: flex;
+            gap: 30px;
+            padding: 20px 0;
+        }
+
+        .primary-column {
+            flex: 3; /* Main content takes up 3 parts */
+            min-width: 0; /* Allows content to shrink */
+        }
+
+        .sidebar {
+            flex: 1; /* Sidebar takes up 1 part */
+            min-width: 250px;
+            max-width: 300px;
+            /* Sticky positioning for the sidebar download box */
+            align-self: flex-start;
+            position: sticky;
+            top: 20px;
+        }
+
+        /* Header and Navigation */
+        .header {
+            background-color: #075E54; /* WhatsApp Business Green */
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .logo a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .nav-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+            border-radius: 4px;
+        }
+
+        .nav-menu a:hover {
+            background-color: #128C7E;
+        }
+
+        /* App Main Section */
+        .app-hero {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            background-color: #075E54;
+            border-radius: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .app-info h1 {
+            margin: 0 0 5px 0;
+            font-size: 2.2em;
+            color: #075E54;
+        }
+
+        .app-info p {
+            margin: 0;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Download Button Styling - Professional and Primary */
+        .download-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #25D366; /* WhatsApp Light Green */
+            color: white;
+            text-decoration: none;
+            font-size: 1.3em;
+            font-weight: bold;
+            border-radius: 50px;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.1s;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.4);
+            border: none;
+            cursor: pointer;
+        }
+
+        .download-button:hover {
+            background-color: #1DA851;
+            transform: translateY(-2px);
+        }
+
+        .download-button:active {
+            transform: translateY(0);
+        }
+        
+        /* Section Styling */
+        .section-box {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        .section-box h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+            color: #075E54;
+        }
+
+        /* App Details Table */
+        .app-details-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .app-details-table th, .app-details-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .app-details-table th {
+            background-color: #f9f9f9;
+            font-weight: bold;
+            width: 40%;
+            color: #555;
+        }
+        
+        .app-details-table tr:hover {
+            background-color: #f5fff5;
+        }
+
+        /* Feature List Styling */
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        .feature-list li {
+            padding: 10px 0;
+            border-bottom: 1px dashed #eee;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .feature-list li:before {
+            content: '✓';
+            color: #25D366;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* Categories Section */
+        .categories-list {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .categories-list li {
+            background-color: #f0f8ff;
+            color: #075E54;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            border: 1px solid #cceeff;
+        }
+
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: #ccc;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+
+        .footer p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 900px) {
+            .main-content {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                position: static;
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .app-hero {
+                flex-direction: column;
+                text-align: center;
+            }
         }
     </style>
 </head>
 <body>
 
     <header class="header">
-        <div class="container">
-            <a href="/">Apps Download Hub</a>
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <div class="logo"><a href="/">Apps Download</a></div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="/apk-apps">Android APKs</a></li>
+                    <li><a href="/ios-apps">iOS Apps</a></li>
+                    <li><a href="/about">About Us</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <div class="hero-section">
-        <div class="container fade-in">
-            <h1>Download WhatsApp Business APK (Official)</h1>
-            <p>The essential tool for small businesses to connect with customers easily and efficiently.</p>
-        </div>
-    </div>
-
-    <div class="container main-content">
-        
-        <div class="content-area fade-in">
-            <div class="card">
-                <h2>The Power of WhatsApp Business for Your Enterprise</h2>
-                <p>WhatsApp Business is a free-to-download application designed specifically to help small business owners manage customer communications effectively. It provides a suite of built-in tools that allow you to work smarter, build trust, and ultimately grow your business. By integrating your business identity with the world's most popular messaging platform, you can reach billions of potential customers directly.</p>
-
-                <p>The app offers everything you already love about the standard WhatsApp Messenger, such as free calls and messaging, but adds powerful business features to enhance your operations. It is crucial to note that while it works like WhatsApp Messenger, it is a separate application and requires a different phone number from your personal account.</p>
-
-                <h3>Key Features That Drive Business Growth:</h3>
-                <ul>
-                    <li>Professional Business Profile: Create a digital storefront with essential information like your company's address, description, email, and website. This helps build credibility and trust with your customers.</li>
-                    <li>Product Catalog: Showcase your goods and services through dynamic collections and catalogs, allowing customers to browse and inquire about products without leaving the chat.</li>
-                    <li>Messaging Tools: Save time by automating and quickly responding to communications. Features include Quick Replies for frequently asked questions, automated Greeting Messages to welcome new chats, and Away Messages to inform customers when you are offline.</li>
-                    <li>Labels and Organization: Use labels to categorize and organize your contacts and conversations (e.g., “New Customer,” “Pending Order,” “VIP Client”), making it easy to prioritize and track interactions.</li>
-                    <li>In-App Payments and Orders: In supported markets, customers can conveniently place orders and complete payments directly within the app, streamlining the customer journey.</li>
-                </ul>
-
-                <p>Whether you are a professional freelancer, a small shop owner, or an entrepreneur, WhatsApp Business is an indispensable tool. It helps you maintain a 24/7 customer presence, increase customer satisfaction, and provide responsive support, all through a secure, familiar platform.</p>
-
-                <div style="text-align: center;">
-                    <a href="whatsapp-business.apk" class="download-btn">
-                        <span style="font-size: 1.5em; display: block;">Download WhatsApp Business APK</span>
-                        <span style="font-size: 0.9em; display: block;">Latest Version - Safe & Free</span>
-                    </a>
-                </div>
+    <div class="container">
+        <section class="app-hero">
+            <div class="app-icon">
+                <span style="font-family: 'Segoe UI Symbol', sans-serif;">✆ B</span>
             </div>
+            <div class="app-info">
+                <h1>WhatsApp Business APK</h1>
+                <p>The essential messaging tool for small to medium businesses.</p>
+                <a href="#download-section" class="download-button">Download WhatsApp Business APK (Latest)</a>
+                <p style="margin-top: 10px; font-size: 0.9em; color: #777;">Safe & Free Direct Download for Android.</p>
+            </div>
+        </section>
+
+        <div class="main-content">
             
-            <div class="card fade-in">
-                <h2>Frequently Asked Questions</h2>
-                <div class="accordion">
-                    <button class="accordion-btn">Is WhatsApp Business free to use? <span class="accordion-icon">▼</span></button>
-                    <div class="accordion-content">
-                        <p>Yes, the app is free to download and use. It offers a mix of free and paid features, such as the optional 'Meta Verified for Business' subscription for enhanced authentication.</p>
+            <div class="primary-column">
+                
+                <section class="section-box">
+                    <h2>WhatsApp Business: Connect with Customers and Grow Your Business</h2>
+                    <p>
+                        WhatsApp Business is a powerful, free-to-download application designed specifically for small to medium business owners, offering a suite of professional tools built on the foundation of the world’s most popular messaging app. It allows you to separate your personal life from your work life while maintaining the simplicity and familiarity of the standard WhatsApp Messenger.
+                    </p>
+                    <p>
+                        This dedicated platform is engineered to enhance customer communication, streamline support, and boost sales by providing features that automate, sort, and quickly respond to customer interactions. By downloading the WhatsApp Business APK, you gain immediate access to these features, transforming how you engage with your client base and helping you build trust and long-term loyalty.
+                    </p>
+
+                    <h3>Key Features to Boost Your Business Efficiency</h3>
+                    <ul class="feature-list">
+                        <li>
+                            <strong>Professional Business Profile:</strong> Create a verified digital storefront for your company, including your business name, address, email, website, and a concise description of your offerings. This helps establish credibility and trust with your customers.
+                        </li>
+                        <li>
+                            <strong>Product Catalog:</strong> Easily showcase your products and services directly within the app. The Catalog feature allows customers to browse items, add them to a cart, and start a conversation about a specific product, making B2B and B2C sales simpler.
+                        </li>
+                        <li>
+                            <strong>Quick Replies:</strong> Save and reuse frequently sent messages to answer common customer questions instantly. Simply type the shortcut (e.g., '/') to select a predefined message, saving significant time in customer support.
+                        </li>
+                        <li>
+                            <strong>Automated Messaging:</strong> Set up essential automated messages to work smarter.
+                            <ul>
+                                <li>Greeting Messages: Automatically welcome new customers or those messaging after a long period of inactivity.</li>
+                                <li>Away Messages: Let customers know you are currently unavailable and when you expect to respond (outside of business hours).</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Labels to Organize:</strong> Categorize and organize your contacts and conversations with custom labels (e.g., 'New Customer', 'Pending Payment', 'Completed Order') to easily manage and track your sales pipeline and customer status.
+                        </li>
+                        <li>
+                            <strong>Short Links & QR Codes:</strong> Generate a short link for your business that customers can click or scan as a QR code to immediately open a chat with you, simplifying lead generation and customer access.
+                        </li>
+                    </ul>
+
+                    <p>
+                        By leveraging these built-in tools, WhatsApp Business becomes more than just a communication app; it is a full-fledged customer relationship management (CRM) and sales platform in your pocket. Download the APK today to start transforming your customer interactions and accelerating your business growth.
+                    </p>
+                    
+                    <a href="#download-section" class="download-button" style="width: 100%; box-sizing: border-box;">Download WhatsApp Business APK Now</a>
+
+                </section>
+                
+                <section class="section-box">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-section">
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                Is WhatsApp Business free to download?
+                                <span class="accordion-icon">▼</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Yes, the WhatsApp Business app is free to download and use, although it includes a mix of free and paid features, such as the optional Meta Verified subscription.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                Can I use my personal WhatsApp and WhatsApp Business on the same phone?
+                                <span class="accordion-icon">▼</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Yes, as long as you use two different phone numbers, you can have both your personal WhatsApp Messenger and WhatsApp Business app on a single device. You cannot use the same number for both apps simultaneously.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-btn">
+                                What is the Catalog feature?
+                                <span class="accordion-icon">▼</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>The Catalog feature allows you to display a showcase of your products and services directly in your business profile. Customers can browse your offerings and place orders or inquire about items without leaving the chat.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="accordion">
-                    <button class="accordion-btn">Can I use WhatsApp Business and my personal WhatsApp on the same phone? <span class="accordion-icon">▼</span></button>
-                    <div class="accordion-content">
-                        <p>Yes, you can! However, they must be registered with two different phone numbers. If you have a dual-SIM phone, this is easily achieved.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <button class="accordion-btn">What operating systems are supported for the app? <span class="accordion-icon">▼</span></button>
-                    <div class="accordion-content">
-                        <p>The WhatsApp Business app is supported on Android devices running OS 5.0 and newer, and iPhones running iOS 15.1 and newer.</p>
-                    </div>
-                </div>
+                </section>
+
+            </div>
+
+            <div class="sidebar">
+                
+                <section class="section-box" id="download-section">
+                    <h2>APK Download Information</h2>
+                    <a href="#" class="download-button" style="width: 100%; box-sizing: border-box;">
+                        Download APK (128.5 MB)
+                    </a>
+                    <p style="text-align: center; font-size: 0.85em; color: #777; margin-top: 10px;">Version: 2.25.36.75</p>
+                    
+                    <table class="app-details-table">
+                        <tr>
+                            <th>App Name</th>
+                            <td>WhatsApp Business</td>
+                        </tr>
+                        <tr>
+                            <th>Package Name</th>
+                            <td>com.whatsapp.w4b</td>
+                        </tr>
+                        <tr>
+                            <th>Developer</th>
+                            <td>WhatsApp LLC (Meta Platforms, Inc.)</td>
+                        </tr>
+                        <tr>
+                            <th>Latest Version</th>
+                            <td>2.25.36.75</td>
+                        </tr>
+                        <tr>
+                            <th>File Size</th>
+                            <td>~128.5 MB</td>
+                        </tr>
+                        <tr>
+                            <th>Minimum Android</th>
+                            <td>5.1+ (Lollipop)</td>
+                        </tr>
+                        <tr>
+                            <th>Price</th>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <th>Total Downloads</th>
+                            <td>1 Billion+</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section class="section-box">
+                    <h2>Categories</h2>
+                    <ul class="categories-list">
+                        <li>Business</li>
+                        <li>Communication</li>
+                        <li>Productivity</li>
+                        <li>Messaging</li>
+                        <li>Tools</li>
+                    </ul>
+                </section>
+
             </div>
         </div>
-
-        <div class="sidebar">
-            <div class="card app-details fade-in">
-                <h2>App Details</h2>
-                <table>
-                    <tr>
-                        <th>App Name</th>
-                        <td>WhatsApp Business</td>
-                    </tr>
-                    <tr>
-                        <th>Package Name</th>
-                        <td>com.whatsapp.w4b</td>
-                    </tr>
-                    <tr>
-                        <th>Latest Version</th>
-                        <td>2.25.36.75</td>
-                    </tr>
-                    <tr>
-                        <th>Download Size</th>
-                        <td>~128.5 MB (APK)</td>
-                    </tr>
-                    <tr>
-                        <th>Operating System</th>
-                        <td>Android (5.0+)</td>
-                    </tr>
-                    <tr>
-                        <th>Developer</th>
-                        <td>WhatsApp Inc. / Meta Platforms</td>
-                    </tr>
-                    <tr>
-                        <th>Category</th>
-                        <td>Business, Communication</td>
-                    </tr>
-                    <tr>
-                        <th>Total Downloads</th>
-                        <td>1 Billion+</td>
-                    </tr>
-                    <tr>
-                        <th>License</th>
-                        <td>Free (In-App Purchases)</td>
-                    </tr>
-                </table>
-                <a href="whatsapp-business.apk" class="download-btn">
-                    Download APK Now
-                </a>
-            </div>
-
-            <div class="card categories-section fade-in">
-                <h2>Explore Categories</h2>
-                <ul class="categories-list">
-                    <li><a href="/category/communication.html">Communication Apps</a></li>
-                    <li><a href="/category/productivity.html">Productivity & Tools</a></li>
-                    <li><a href="/category/social-media.html">Social Media</a></li>
-                    <li><a href="/category/finance.html">Finance & Business</a></li>
-                    <li><a href="/category/entertainment.html">Entertainment</a></li>
-                </ul>
-            </div>
-        </div>
-
     </div>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Apps Download Hub. All rights reserved.</p>
+            <p>&copy; 2025 Apps Download. All rights reserved. | Disclaimer: All trademarks are the property of their respective owners.</p>
         </div>
     </footer>
-
+    
     <script>
-        // Hamburger Menu Toggle (Placeholder from original context)
-        document.querySelectorAll('.menu-toggle').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const navMenu = document.querySelector('.nav-menu');
-                navMenu.classList.toggle('open');
-            });
+        // Placeholder for Mobile Menu Toggle
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-menu').classList.toggle('open');
         });
 
         // FAQ Accordion
@@ -209,24 +477,45 @@
                 icon.textContent = content.classList.contains('open') ? '▲' : '▼';
             });
         });
+        
+        // Minor CSS additions for JS functionality
+        /* Added for accordion JS functionality */
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+            padding: 0 15px;
+            background-color: #fafafa;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
 
-        // Fade in animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
+        .accordion-content.open {
+            max-height: 500px; /* Large enough for content */
+            padding: 15px;
+            transition: max-height 0.5s ease-in, padding 0.3s ease-in;
+        }
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, observerOptions);
+        .accordion-btn {
+            width: 100%;
+            text-align: left;
+            padding: 15px;
+            font-size: 1.1em;
+            background-color: #eee;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
 
-        document.querySelectorAll('.fade-in').forEach(el => {
-            observer.observe(el);
-        });
+        .accordion-btn:hover {
+            background-color: #ddd;
+        }
+        /* End of Minor CSS for JS */
     </script>
 </body>
 </html>
